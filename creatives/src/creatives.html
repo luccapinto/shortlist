@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F3EFE6;--card:#FBF9F4;--ink:#14130F;--ink2:#3A3830;--muted:#77736A;--line:#D9D2C2;--acc:#FF5A1F;--green:#1F6B45;--gbg:#E3EFE6;--night:#121210;--n2:#1C1B18;--nl:#2E2C27;
+--serif:"Instrument Serif",Georgia,serif;--sans:"Inter Tight",system-ui,sans-serif;--mono:"JetBrains Mono",monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#888;font-family:var(--sans);-webkit-font-smoothing:antialiased}
+.c{position:relative;overflow:hidden;display:none}
+.c.show{display:block}
+.feed{width:1080px;height:1350px}.story{width:1080px;height:1920px}.og{width:1200px;height:630px}.sq{width:1080px;height:1080px}
+.paper{background:var(--paper);color:var(--ink)}.dark{background:var(--night);color:#F3EFE6}
+.logo{display:flex;align-items:center;gap:16px;font-weight:700;letter-spacing:-.02em}
+.logo svg{flex:none}
+.serif{font-family:var(--serif);font-weight:400;letter-spacing:-.02em}
+em{font-style:italic;color:var(--acc)}
+.mono{font-family:var(--mono)}
+.badge{display:inline-flex;align-items:center;gap:14px;border:2px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink2)}
+.badge i{width:14px;height:14px;border-radius:50%;background:var(--acc)}
+.cta{display:inline-flex;align-items:center;gap:14px;background:var(--acc);color:#fff;font-weight:600;border-radius:999px}
+.chat{background:var(--card);border:2px solid var(--line);border-radius:36px;overflow:hidden;box-shadow:0 60px 120px -60px rgba(20,19,15,.55)}
+.ch{display:flex;align-items:center;gap:14px;border-bottom:2px solid var(--line);background:#F7F4EC;font-weight:600}
+.ch .l{display:flex;gap:9px}.ch .l b{width:15px;height:15px;border-radius:50%;background:#DCD5C5}
+.m{display:flex;gap:18px;align-items:flex-start}
+.av{flex:none;display:grid;place-items:center;color:#fff;font-weight:700}
+.av.y{background:#5B6B8C}.av.b{background:var(--ink)}
+.nm{font-weight:600;color:var(--ink)}.nm small{font-weight:400;color:var(--muted);margin-left:10px}
+.tx{color:var(--ink2)}
+.tx a{color:#3557B7}
+.sl{border:2px solid var(--line);border-radius:22px;background:#fff;overflow:hidden}
+.sr{display:grid;grid-template-columns:40px 1fr auto;gap:16px;align-items:center;border-top:2px solid #EFEBE2}
+.sr:first-child{border-top:0}
+.sr .rk{font-family:var(--mono);color:var(--muted)}
+.sr .q{display:block;color:var(--muted);font-style:italic}
+.sr .sc{font-family:var(--mono);background:var(--gbg);color:var(--green);border-radius:99px}
+.fn{border:2px solid var(--line);border-radius:22px;background:#fff;display:grid}
+.fr{display:grid;grid-template-columns:200px 1fr 70px;gap:18px;align-items:center}
+.bar{height:12px;border-radius:99px;background:#EAE4D7;overflow:hidden}.bar b{display:block;height:100%;background:var(--ink);border-radius:99px}
+.fr .n{font-family:var(--mono);text-align:right}
+.foot{position:absolute;left:0;right:0;display:flex;justify-content:space-between;align-items:center}
+.url{font-family:var(--mono);color:var(--muted)}
+.vs div{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--nl)}
+.q2{border-left:6px solid var(--acc);font-style:italic}
+</style></head><body>
+
+<!-- 1. OG 1200x630 -->
+<div class="c og paper" id="og" style="padding:64px 72px">
+  <div class="logo" style="font-size:30px"><svg width="44" height="44" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#14130F"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#F3EFE6" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <h1 class="serif" style="font-size:104px;line-height:.95;margin-top:44px">Mande a vaga.<br>Receba a <em>shortlist.</em></h1>
+  <p style="font-size:27px;color:var(--ink2);margin-top:30px;max-width:640px;line-height:1.4">O recrutador de IA que trabalha no seu Teams, Slack ou Google Chat.</p>
+  <div class="chat" style="position:absolute;right:72px;top:150px;width:330px;border-radius:26px">
+    <div class="sl" style="border:0;border-radius:0">
+      <div class="sr" style="padding:16px 20px;font-size:19px"><span class="rk">1</span><span>Marina A.</span><span class="sc" style="padding:4px 12px;font-size:17px">4,4</span></div>
+      <div class="sr" style="padding:16px 20px;font-size:19px"><span class="rk">2</span><span>Diego R.</span><span class="sc" style="padding:4px 12px;font-size:17px">4,2</span></div>
+      <div class="sr" style="padding:16px 20px;font-size:19px"><span class="rk">3</span><span>Paula S.</span><span class="sc" style="padding:4px 12px;font-size:17px">4,1</span></div>
+    </div>
+  </div>
+  <div class="foot" style="bottom:56px;padding:0 72px"><span class="badge" style="padding:10px 22px 10px 16px;font-size:20px"><i></i>Beta fechado · lista de espera aberta</span><span class="url" style="font-size:20px">shortlist.luccabuilds.com</span></div>
+</div>
+
+<!-- 2. FEED: o print da conversa -->
+<div class="c feed paper" id="feed-chat" style="padding:80px 72px">
+  <div class="logo" style="font-size:34px"><svg width="52" height="52" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#14130F"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#F3EFE6" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <h1 class="serif" style="font-size:112px;line-height:.95;margin-top:44px">Uma mensagem.<br><em>Cinco finalistas.</em></h1>
+  <div class="chat" style="margin-top:56px">
+    <div class="ch" style="padding:24px 30px;font-size:25px"><div class="l"><b></b><b></b><b></b></div>#vagas-atendimento</div>
+    <div style="padding:30px;display:grid;gap:28px">
+      <div class="m"><div class="av y" style="width:56px;height:56px;border-radius:16px;font-size:21px">CR</div><div><div class="nm" style="font-size:23px">Carla · Recrutamento<small style="font-size:19px">seg 09:12</small></div><div class="tx" style="font-size:27px;line-height:1.45;margin-top:4px">Abri a vaga de Analista de Atendimento, 214 inscritos. Monta uma shortlist até sexta?</div></div></div>
+      <div class="m"><div class="av b" style="width:56px;height:56px;border-radius:16px"><svg width="30" height="30" viewBox="0 0 64 64"><path d="M14 20h36M14 32h26M14 44h14" stroke="#F3EFE6" stroke-width="6" stroke-linecap="round"/><circle cx="48" cy="44" r="6" fill="#FF5A1F"/></svg></div><div style="flex:1"><div class="nm" style="font-size:23px">Shortlist<small style="font-size:19px">qui 16:40</small></div><div class="tx" style="font-size:27px;line-height:1.45;margin-top:4px">Pronto. Estes são os 5 finalistas, com a evidência de cada nota:</div>
+        <div class="sl" style="margin-top:18px">
+          <div class="sr" style="padding:16px 22px;font-size:23px"><span class="rk">1</span><span>Marina A.<span class="q" style="font-size:19px">"refiz o cálculo da fatura junto com ele"</span></span><span class="sc" style="padding:5px 14px;font-size:20px">4,4</span></div>
+          <div class="sr" style="padding:16px 22px;font-size:23px"><span class="rk">2</span><span>Diego R.<span class="q" style="font-size:19px">"segurei a fila sozinho na Black Friday"</span></span><span class="sc" style="padding:5px 14px;font-size:20px">4,2</span></div>
+          <div class="sr" style="padding:16px 22px;font-size:23px"><span class="rk">3</span><span>Paula S.<span class="q" style="font-size:19px">"uso Zendesk há dois anos"</span></span><span class="sc" style="padding:5px 14px;font-size:20px">4,1</span></div>
+        </div></div></div>
+    </div>
+  </div>
+  <div class="foot" style="bottom:70px;padding:0 72px"><span class="cta" style="padding:24px 38px;font-size:28px">Entre na lista de espera →</span><span class="url" style="font-size:22px">shortlist.luccabuilds.com</span></div>
+</div>
+
+<!-- 3. FEED: 25 horas -->
+<div class="c feed dark" id="feed-horas" style="padding:80px 72px">
+  <div class="logo" style="font-size:34px;color:#F3EFE6"><svg width="52" height="52" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#F3EFE6"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#14130F" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <p class="mono" style="font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:#8E897D;margin-top:90px">Uma vaga com 200 inscritos</p>
+  <div class="serif" style="font-size:420px;line-height:.82;margin-top:30px;letter-spacing:-.04em">25<span style="font-size:160px;letter-spacing:0"> h</span></div>
+  <p class="serif" style="font-size:72px;line-height:1.02;margin-top:40px">de recrutador lendo currículo,<br>ligando e entrevistando.</p>
+  <p class="serif" style="font-size:72px;line-height:1.02;margin-top:48px"><em>Ou uma mensagem no chat.</em></p>
+  <div class="foot" style="bottom:70px;padding:0 72px"><span class="cta" style="padding:24px 38px;font-size:28px">Entre na lista de espera →</span><span class="url" style="font-size:22px;color:#8E897D">shortlist.luccabuilds.com</span></div>
+</div>
+
+<!-- 4. FEED: o funil -->
+<div class="c feed paper" id="feed-funil" style="padding:80px 72px">
+  <div class="logo" style="font-size:34px"><svg width="52" height="52" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#14130F"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#F3EFE6" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <h1 class="serif" style="font-size:104px;line-height:.96;margin-top:44px">O filtro barato vem primeiro.<br><em>O caro, só para quem merece.</em></h1>
+  <div class="fn" style="margin-top:64px;padding:40px 44px;gap:34px">
+    <div class="fr" style="font-size:28px"><span>Currículos</span><span class="bar"><b style="width:100%"></b></span><span class="n">214</span></div>
+    <div class="fr" style="font-size:28px"><span>Phone screen</span><span class="bar"><b style="width:19%"></b></span><span class="n">40</span></div>
+    <div class="fr" style="font-size:28px"><span>Entrevista</span><span class="bar"><b style="width:5%"></b></span><span class="n">10</span></div>
+    <div class="fr" style="font-size:28px;font-weight:600"><span style="color:var(--acc)">Shortlist</span><span class="bar"><b style="width:2.4%;background:var(--acc)"></b></span><span class="n" style="color:var(--acc)">5</span></div>
+  </div>
+  <p style="font-size:30px;color:var(--ink2);margin-top:44px;line-height:1.45">Ranking de currículos, phone screen no WhatsApp e entrevista por voz. Tudo pedido e entregue no chat que o seu time já usa.</p>
+  <div class="foot" style="bottom:70px;padding:0 72px"><span class="cta" style="padding:24px 38px;font-size:28px">Entre na lista de espera →</span><span class="url" style="font-size:22px">shortlist.luccabuilds.com</span></div>
+</div>
+
+<!-- 5. FEED: evidência -->
+<div class="c feed paper" id="feed-prova" style="padding:80px 72px">
+  <div class="logo" style="font-size:34px"><svg width="52" height="52" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#14130F"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#F3EFE6" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <h1 class="serif" style="font-size:120px;line-height:.95;margin-top:44px">Nota sem prova<br><em>não entra.</em></h1>
+  <div class="chat" style="margin-top:60px;padding:40px 44px;border-radius:32px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid var(--line);padding-bottom:28px">
+      <div><div style="font-size:36px;font-weight:600">Marina A.</div><div style="font-size:24px;color:var(--muted);margin-top:4px">Analista de Atendimento · entrevista de 14 min</div></div>
+      <span class="mono" style="background:var(--gbg);color:var(--green);font-size:22px;padding:10px 20px;border-radius:99px">Avançar · 4,4</span></div>
+    <div style="padding-top:30px"><div style="font-size:28px;font-weight:600">Resolução de conflito</div>
+      <p class="q2" style="font-size:30px;line-height:1.45;color:var(--ink2);padding-left:26px;margin-top:16px">"Pedi o protocolo, refiz o cálculo da fatura junto com ele na ligação e abri o estorno antes de desligar."</p>
+      <p class="mono" style="font-size:20px;color:var(--muted);margin-top:12px;padding-left:32px">entrevista · 06:12</p></div>
+  </div>
+  <p style="font-size:30px;color:var(--ink2);margin-top:44px;line-height:1.45">Cada critério cita a frase exata do candidato. Você confere, não confia.</p>
+  <div class="foot" style="bottom:70px;padding:0 72px"><span class="cta" style="padding:24px 38px;font-size:28px">Entre na lista de espera →</span><span class="url" style="font-size:22px">shortlist.luccabuilds.com</span></div>
+</div>
+
+<!-- 6. STORY -->
+<div class="c story dark" id="story" style="padding:150px 80px">
+  <div class="logo" style="font-size:38px;color:#F3EFE6"><svg width="58" height="58" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#F3EFE6"/><path d="M18 22h28M18 32h20M18 42h12" stroke="#14130F" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="42" r="5" fill="#FF5A1F"/></svg>Shortlist</div>
+  <h1 class="serif" style="font-size:150px;line-height:.92;margin-top:80px">Mande a vaga.<br>Receba a <em>shortlist.</em></h1>
+  <p style="font-size:36px;color:#B7B1A4;margin-top:50px;line-height:1.4">Um recrutador de IA no seu Teams, Slack ou Google Chat.</p>
+  <div class="vs" style="margin-top:80px">
+    <div style="padding:30px 0;font-size:36px"><span>Ranqueia os currículos</span><span class="mono" style="font-size:26px;color:#8E897D">214</span></div>
+    <div style="padding:30px 0;font-size:36px"><span>Phone screen no WhatsApp</span><span class="mono" style="font-size:26px;color:#8E897D">40</span></div>
+    <div style="padding:30px 0;font-size:36px"><span>Entrevista por voz</span><span class="mono" style="font-size:26px;color:#8E897D">10</span></div>
+    <div style="padding:30px 0;font-size:36px;border-bottom:0"><span style="color:var(--acc)">Devolve a shortlist</span><span class="mono" style="font-size:26px;color:var(--acc)">5</span></div>
+  </div>
+  <div style="position:absolute;left:80px;right:80px;bottom:200px;text-align:center">
+    <span class="badge" style="background:var(--n2);border-color:var(--nl);color:#CFC9BC;padding:14px 28px 14px 22px;font-size:28px"><i></i>Beta fechado · próxima turma</span>
+    <div class="cta" style="display:flex;justify-content:center;margin-top:36px;padding:36px;font-size:40px">Entre na lista de espera</div>
+    <p class="url" style="font-size:28px;margin-top:28px;color:#8E897D">shortlist.luccabuilds.com</p>
+  </div>
+</div>
+</body></html>
